@@ -8,8 +8,9 @@
 
 class AppDelegate
     attr_accessor :window
+    
     def applicationDidFinishLaunching(a_notification)
-        # Insert code here to initialize your application
+        Gem::SpecFetcher.fetcher.list # Preload all specs from rubygems.org by "listing" them here
     end
 end
 

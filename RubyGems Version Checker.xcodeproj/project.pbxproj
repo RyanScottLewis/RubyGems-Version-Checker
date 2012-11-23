@@ -14,6 +14,8 @@
 		81FC65131660148B00D653BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65111660148B00D653BE /* MainMenu.xib */; };
 		81FC65161660148B00D653BE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65151660148B00D653BE /* rb_main.rb */; };
 		81FC65181660148B00D653BE /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65171660148B00D653BE /* AppDelegate.rb */; };
+		81FC65231660184800D653BE /* WindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65221660184800D653BE /* WindowController.rb */; };
+		81FC652E16602C2A00D653BE /* RubyGemsVersionChecker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 81FC652D16602C2A00D653BE /* RubyGemsVersionChecker.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		81FC65121660148B00D653BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		81FC65151660148B00D653BE /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		81FC65171660148B00D653BE /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		81FC65221660184800D653BE /* WindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WindowController.rb; sourceTree = "<group>"; };
+		81FC652D16602C2A00D653BE /* RubyGemsVersionChecker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = RubyGemsVersionChecker.icns; path = ../RubyGemsVersionChecker.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +85,11 @@
 		81FC65071660148B00D653BE /* RubyGems Version Checker */ = {
 			isa = PBXGroup;
 			children = (
+				81FC652F16602C3A00D653BE /* Icons */,
+				81FC65211660183800D653BE /* Classes */,
 				81FC65171660148B00D653BE /* AppDelegate.rb */,
-				81FC65101660148B00D653BE /* Resources */,
 				81FC65141660148B00D653BE /* Other Sources */,
+				81FC65101660148B00D653BE /* Resources */,
 				81FC65081660148B00D653BE /* Supporting Files */,
 			);
 			path = "RubyGems Version Checker";
@@ -114,6 +120,22 @@
 				81FC65151660148B00D653BE /* rb_main.rb */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		81FC65211660183800D653BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65221660184800D653BE /* WindowController.rb */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		81FC652F16602C3A00D653BE /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				81FC652D16602C2A00D653BE /* RubyGemsVersionChecker.icns */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +211,8 @@
 				81FC65131660148B00D653BE /* MainMenu.xib in Resources */,
 				81FC65161660148B00D653BE /* rb_main.rb in Resources */,
 				81FC65181660148B00D653BE /* AppDelegate.rb in Resources */,
+				81FC65231660184800D653BE /* WindowController.rb in Resources */,
+				81FC652E16602C2A00D653BE /* RubyGemsVersionChecker.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +315,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -308,6 +333,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					/Library/Frameworks,
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -349,6 +375,7 @@
 				81FC651D1660148B00D653BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81FC651E1660148B00D653BE /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -357,6 +384,7 @@
 				81FC65201660148B00D653BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

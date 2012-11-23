@@ -9,6 +9,8 @@
 # Loading the Cocoa framework. If you need to load more frameworks, you can
 # do that here too.
 framework 'Cocoa'
+require 'rubygems'
+require 'pp'
 
 # Loading all the Ruby project files.
 main = File.basename(__FILE__, File.extname(__FILE__))
