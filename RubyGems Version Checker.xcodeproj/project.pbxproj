@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81FC65011660148B00D653BE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC65001660148B00D653BE /* Cocoa.framework */; };
+		81FC65031660148B00D653BE /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC65021660148B00D653BE /* MacRuby.framework */; };
+		81FC650C1660148B00D653BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81FC650A1660148B00D653BE /* InfoPlist.strings */; };
+		81FC650E1660148B00D653BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC650D1660148B00D653BE /* main.m */; };
+		81FC65131660148B00D653BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65111660148B00D653BE /* MainMenu.xib */; };
+		81FC65161660148B00D653BE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65151660148B00D653BE /* rb_main.rb */; };
+		81FC65181660148B00D653BE /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 81FC65171660148B00D653BE /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81FC65051660148B00D653BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81FC64F31660148B00D653BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81FC64FB1660148B00D653BE;
+			remoteInfo = "RubyGems Version Checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81FC64FC1660148B00D653BE /* RubyGems Version Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RubyGems Version Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC65001660148B00D653BE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		81FC65021660148B00D653BE /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		81FC65091660148B00D653BE /* RubyGems Version Checker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyGems Version Checker-Info.plist"; sourceTree = "<group>"; };
+		81FC650B1660148B00D653BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81FC650D1660148B00D653BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81FC650F1660148B00D653BE /* RubyGems Version Checker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyGems Version Checker-Prefix.pch"; sourceTree = "<group>"; };
+		81FC65121660148B00D653BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81FC65151660148B00D653BE /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		81FC65171660148B00D653BE /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81FC64F91660148B00D653BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC65011660148B00D653BE /* Cocoa.framework in Frameworks */,
+				81FC65031660148B00D653BE /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81FC64F11660148B00D653BE = {
+			isa = PBXGroup;
+			children = (
+				81FC65071660148B00D653BE /* RubyGems Version Checker */,
+				81FC64FF1660148B00D653BE /* Frameworks */,
+				81FC64FD1660148B00D653BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81FC64FD1660148B00D653BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81FC64FC1660148B00D653BE /* RubyGems Version Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81FC64FF1660148B00D653BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65001660148B00D653BE /* Cocoa.framework */,
+				81FC65021660148B00D653BE /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81FC65071660148B00D653BE /* RubyGems Version Checker */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65171660148B00D653BE /* AppDelegate.rb */,
+				81FC65101660148B00D653BE /* Resources */,
+				81FC65141660148B00D653BE /* Other Sources */,
+				81FC65081660148B00D653BE /* Supporting Files */,
+			);
+			path = "RubyGems Version Checker";
+			sourceTree = "<group>";
+		};
+		81FC65081660148B00D653BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65091660148B00D653BE /* RubyGems Version Checker-Info.plist */,
+				81FC650A1660148B00D653BE /* InfoPlist.strings */,
+				81FC650D1660148B00D653BE /* main.m */,
+				81FC650F1660148B00D653BE /* RubyGems Version Checker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81FC65101660148B00D653BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65111660148B00D653BE /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		81FC65141660148B00D653BE /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				81FC65151660148B00D653BE /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		81FC65041660148B00D653BE /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 81FC651E1660148B00D653BE /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				81FC65061660148B00D653BE /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		81FC64FB1660148B00D653BE /* RubyGems Version Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FC651B1660148B00D653BE /* Build configuration list for PBXNativeTarget "RubyGems Version Checker" */;
+			buildPhases = (
+				81FC64F81660148B00D653BE /* Sources */,
+				81FC64F91660148B00D653BE /* Frameworks */,
+				81FC64FA1660148B00D653BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RubyGems Version Checker";
+			productName = "RubyGems Version Checker";
+			productReference = 81FC64FC1660148B00D653BE /* RubyGems Version Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81FC64F31660148B00D653BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lewis Software";
+			};
+			buildConfigurationList = 81FC64F61660148B00D653BE /* Build configuration list for PBXProject "RubyGems Version Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81FC64F11660148B00D653BE;
+			productRefGroup = 81FC64FD1660148B00D653BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81FC64FB1660148B00D653BE /* RubyGems Version Checker */,
+				81FC65041660148B00D653BE /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81FC64FA1660148B00D653BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC650C1660148B00D653BE /* InfoPlist.strings in Resources */,
+				81FC65131660148B00D653BE /* MainMenu.xib in Resources */,
+				81FC65161660148B00D653BE /* rb_main.rb in Resources */,
+				81FC65181660148B00D653BE /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81FC64F81660148B00D653BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC650E1660148B00D653BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81FC65061660148B00D653BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81FC64FB1660148B00D653BE /* RubyGems Version Checker */;
+			targetProxy = 81FC65051660148B00D653BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81FC650A1660148B00D653BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FC650B1660148B00D653BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81FC65111660148B00D653BE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FC65121660148B00D653BE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81FC65191660148B00D653BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81FC651A1660148B00D653BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81FC651C1660148B00D653BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyGems Version Checker/RubyGems Version Checker-Prefix.pch";
+				INFOPLIST_FILE = "RubyGems Version Checker/RubyGems Version Checker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81FC651D1660148B00D653BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyGems Version Checker/RubyGems Version Checker-Prefix.pch";
+				INFOPLIST_FILE = "RubyGems Version Checker/RubyGems Version Checker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81FC651F1660148B00D653BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		81FC65201660148B00D653BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81FC64F61660148B00D653BE /* Build configuration list for PBXProject "RubyGems Version Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC65191660148B00D653BE /* Debug */,
+				81FC651A1660148B00D653BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FC651B1660148B00D653BE /* Build configuration list for PBXNativeTarget "RubyGems Version Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC651C1660148B00D653BE /* Debug */,
+				81FC651D1660148B00D653BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81FC651E1660148B00D653BE /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC651F1660148B00D653BE /* Debug */,
+				81FC65201660148B00D653BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81FC64F31660148B00D653BE /* Project object */;
+}
